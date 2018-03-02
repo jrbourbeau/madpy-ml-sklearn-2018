@@ -1,0 +1,14 @@
+name: madpy-ml-sklearn-2018
+channels:
+    - conda-forge
+dependencies:
+    - python=3.6
+    - matplotlib
+    - seaborn
+    - jupyter
+    - jupyterlab
+    - scikit-learn
+    - mlxtend
+    - numpy
+    - pandas
+    - python-graphviz
