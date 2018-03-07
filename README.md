@@ -1,9 +1,9 @@
 # Supervised machine learning in Python with scikit-learn
 
+[![Build Status](https://travis-ci.org/jrbourbeau/madpy-ml-sklearn-2018.svg?branch=master)](https://travis-ci.org/jrbourbeau/madpy-ml-sklearn-2018)
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/jrbourbeau/madpy-ml-sklearn-2018/master?filepath=machine-learning-sklearn-madpy.ipynb)
 
-Material for talk on `scikit-learn` at Madison Python (MadPy) meetup. The
-slides can be found at https://jrbourbeau.github.io/madpy-ml-sklearn-2018/.
+Materials for "Supervised machine learning in Python with scikit-learn" talk at the Madison Python (MadPy) meetup. A live version of the slides can be found at https://jrbourbeau.github.io/madpy-ml-sklearn-2018/.
 
 
 ## Installation
@@ -19,7 +19,7 @@ The dependencies for generating the slides are:
 - `seaborn`
 - `graphviz`
 
-#### Using `conda`
+### Using `conda`
 
 A `conda` environment with these dependencies installed can be created via:
 
@@ -28,13 +28,15 @@ conda env create --file environment.yml
 source activate madpy-ml-sklearn-2018
 ```
 
-#### Using `pip`
+### Using `pip`
 
-Inside a virtual environment, install
+Inside a virtual environment, `pip` install the needed packages via:
 
 ```bash
 pip install -r requirements.txt
 ```
+
+Note: to render decision tree graphs [Graphviz](https://www.graphviz.org/download/) must also be installed.
 
 
 ## Usage
