@@ -16,7 +16,6 @@ The dependencies for generating the slides are:
 - `scikit-learn`
 - `mlxtend`
 - `matplotlib`
-- `seaborn`
 - `graphviz`
 
 ### Using `conda`

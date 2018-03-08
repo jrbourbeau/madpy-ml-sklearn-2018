@@ -3,11 +3,10 @@ channels:
     - conda-forge
 dependencies:
     - python=3.6
-    - matplotlib
-    - jupyter
-    - jupyterlab
-    - scikit-learn
-    - mlxtend
-    - numpy
-    - pandas
-    - python-graphviz
+    - matplotlib=2.1.2
+    - jupyter=1.0.0
+    - scikit-learn=0.19.1
+    - mlxtend=0.10.0
+    - numpy=1.14.1
+    - pandas=0.22.0
+    - python-graphviz=0.8.2
